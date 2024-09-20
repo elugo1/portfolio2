@@ -7,20 +7,22 @@
   
   <div class="card">
     <a href={link} class="block">
-      <img src={imageUrl} alt={title} class="card-image"/>
-      <!-- <div class="card-content"> -->
+      <img src={imageUrl} alt={title} class="card-image opacity-70 transition-opacity duration-300 hover:opacity-100"/>
+
+      <div class="card-title-overlay">
         <p class="card-title">{title}</p>
-      <!-- </div> -->
+      </div>
     </a>
   </div>
   
   <style>
     .card {
       border: 1px solid #ddd;
-      border-radius: 2px;
+      border-radius: 6px;
       overflow: hidden;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: transform 0.2s ease;
+      transition: transform 0.3s ease;
+      position: relative;
     }
   
     .card:hover {
@@ -29,32 +31,30 @@
   
     .card-image {
       width: 100%;
-      height: 200px; /* Adjust as needed */
-      object-fit: cover ;
+      height: 20rem; /* Adjust as needed */
+      object-fit: cover;
     }
-    .card-content {
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* width: 100%; */
-    background-color: rgba(0, 0, 0, 0.25); /* Semi-transparent background */
-    /* color: white; */
-    padding: 1rem;
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    text-align: center; /* Center text */
-    z-index: 10; /* Ensure it appears above the image */
-  }
-    .card-title {
-      padding: 1rem;
-      background-color: rgba(0, 0, 0, 0.5);
-      font-size: 1.25rem;
-      /* color: #333; */
+  
+    .card-title-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      color: white;
+      padding: 0.5rem; /* Padding for readability */
       text-align: center;
+    }
+  
+    .card-title {
+      margin: 0;
+      font-size: 1.25rem;
     }
   
     .card a {
       text-decoration: none;
       color: inherit;
+      display: block;
     }
   </style>
   

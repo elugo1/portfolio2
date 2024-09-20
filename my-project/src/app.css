@@ -13,3 +13,8 @@ html{
 h1,h2,h3, .poppins , a{
     font-family: 'Poppins',sans-serif;
 }
+
+p{
+    font-family:'Poppins',sans-serif;
+    text-indent: 30px;  
+}
