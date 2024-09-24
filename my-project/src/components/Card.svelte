@@ -10,7 +10,7 @@
       <img src={imageUrl} alt={title} class="card-image opacity-70 transition-opacity duration-300 hover:opacity-100"/>
 
       <div class="card-title-overlay">
-        <p class="card-title">{title}</p>
+        <p class="card-title  text-white">{title}</p>
       </div>
     </a>
   </div>

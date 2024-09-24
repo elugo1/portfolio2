@@ -1,0 +1,64 @@
+<script>
+  // No specific script needed for layout purposes
+</script>
+
+<div class="bio-layout">
+  <img src="/thumbnail_images/profile_image.png" alt="Bio" class="bio-photo" />
+
+  <!-- Grouping h1 and p1 inside the same grid element -->
+  <div class="education-section">
+    <h1 class="font-extrabold">Education</h1>
+    <p class="para-1">This is the Education paragraph that explains more about education.</p>
+  </div>
+
+  <p class="para-2">Paragraph 2: This is the second paragraph, and it will start at the top next to the image.</p>
+  <p class="para-3">Paragraph 3: This is the third paragraph, and it will also start at the top next to the image.</p>
+</div>
+
+<style>
+  .bio-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Equal width columns */
+    grid-template-rows: auto; /* Automatic rows based on content */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .bio-photo {
+    grid-column: 1 / 2; /* Image in the first column */
+    grid-row: 1 / 2; /* Image starts at the top */
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+  }
+
+  .education-section {
+    grid-column: 2 / 3; /* Place the education content in the second column */
+    grid-row: 1 / 2; /* In the first row */
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    padding-bottom: 5px; /* Small padding to separate the header from the paragraph */
+  }
+
+  .para-1 {
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+
+  .para-2 {
+    grid-column: 2 / 3; /* Second paragraph in the second column */
+    grid-row: 2 / 3; /* Below the education section */
+    color: black;
+  }
+
+  .para-3 {
+    grid-column: 3 / 4; /* Third paragraph in the third column */
+    grid-row: 1 / 2; /* Next to the image in the first row */
+    color: black;
+  }
+</style>

@@ -20,10 +20,10 @@
     <li>
       <a 
         href="/" 
-        class={`relative text-black text-2xl hover:text-gray-400 ${$page.url.pathname === '/Projects' ? 'text-blue-500' : ''}`}
+        class={`relative text-black text-2xl hover:text-gray-400 ${$page.url.pathname === '/' ? 'text-blue-500' : ''}`}
       >
         Projects
-        {#if $page.url.pathname === '/Projects'}
+        {#if $page.url.pathname === '/'}
           <span class="absolute block w-full h-0.5 bg-blue-500 bottom-0 left-0"></span>
         {/if}
       </a>

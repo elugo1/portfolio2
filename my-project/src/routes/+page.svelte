@@ -5,27 +5,27 @@
     {
       title: 'Pen Plots',
       imageUrl: '/thumbnail_images/project1.png',
-      link: '/2024/a1'
+      link: '/Projects/plots'
     },
     {
       title: 'Where the Edge of Me Meets Another',
       imageUrl: '/thumbnail_images/project4.png',
-      link: '/2024/a1'
+      link: '/Projects/physarum'
     },
     {
       title: 'Microscope Panoramas',
       imageUrl: '/thumbnail_images/p7.png',
-      link: '/2024/a1'
+      link: '/Projects/panoramas'
     },
     {
       title: 'Cemetery Spore Prints',
       imageUrl: '/thumbnail_images/mushroom_thumbnail.png',
-      link: '/2024/a1'
+      link: '/Projects/mushrooms'
     },
     {
       title: 'B☆A Revival',
       imageUrl: '/thumbnail_images/bstaraposter.png',
-      link: '/2024/a1'
+      link: '/Projects/bstara'
     }
   ];
 </script>
