@@ -11,4 +11,9 @@ const config = {
 	preprocess: vitePreprocess()
 };
 
-export default config;
+export default {
+	kit: {
+	  adapter: adapter(),
+	  // Other options
+	}
+  };
