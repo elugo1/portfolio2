@@ -39,19 +39,12 @@
 
   
     <p class="text-lg mb-4">
-      B☆A is a student run project at Carnegie Mellon that originated in the STUDIO for Creative Inquiry in 2016. After the pandemic there had been a haitus where no students had taken up the tradition. In 2023, my friends and I decided to revive the student lecture series, a night of interdisciplinary fun where a dozen students get together to share their art, research, and projects that push the boundaries. In addition to being a presenter for two years of the event, I was lead-organizer for both events.  
-      <a href="https://studioforcreativeinquiry.org/" target="_blank" style="color: blue; text-decoration: underline;">
-      The STUDIO for Creative Inquiry 
-      </a>.
-      The piece is a realtime computed simulation of agents or ants, moving in cohesion with their neighbors, as well as being attracted 
-      to people whom I have designated to be eaten. All of the photos are found, and people in the photos have no personal 
-      connection.
+      B☆A is a student run project at Carnegie Mellon that originated in <a href="https://studioforcreativeinquiry.org/" target="_blank" style="color: blue; text-decoration: underline;">
+        The STUDIO for Creative Inquiry 
+        </a> in 2016. After the pandemic there had been a haitus where no students had taken up the tradition. In 2023, my friends and I decided to revive the student lecture series, a night of interdisciplinary fun where a dozen students get together to share their art, research, and projects that push the boundaries. In addition to being a presenter for two years of the event, I was lead-organizer for both events.  
+.
     </p>
   
-    <p class="text-lg mb-4">
-      I arrived at this piece after experimenting with a shader implementation of Physarum with the goal of making a digital decomposition. In an attempt to visualize death as a dispersal of life-giving compounds. Below are remnants of prior animal-shaped pieces, made with a similar shader. 
-    </p>
-
   </div>
   <style>
     .video-container {

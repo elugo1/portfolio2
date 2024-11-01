@@ -26,6 +26,11 @@
       title: 'B☆A Revival',
       imageUrl: '/thumbnail_images/bstaraposter.png',
       link: '/Projects/bstara'
+    },
+    {
+      title: 'Silhouette Extractor',
+      imageUrl: '/thumbnail_images/silhouette_extractor_1.png',
+      link: '/Projects/bstara'
     }
   ];
 </script>
