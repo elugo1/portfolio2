@@ -5,6 +5,8 @@
 </script>
 
 <div class="container mx-auto p-4">
+  <h1  style="color: black; font-size: 2em;"> Where the Edge of Me Meets Another</h1>
+
   <!-- Header -->
   <h1 class="text-3xl font-bold mb-4">{title}</h1>
 

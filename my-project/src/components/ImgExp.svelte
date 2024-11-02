@@ -10,10 +10,10 @@
   <style>
     .image-container {
       position: relative;
-      width: 30%;
+      width: 60%;
       /* height: 30%; */
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      margin-left:20px;
+      /* margin-left:20px; */
     }
   
     .image-container img {

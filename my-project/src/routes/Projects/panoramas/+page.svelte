@@ -1,7 +1,9 @@
 <div class="container mx-auto p-4 flex flex-col items-center">
+  <h1  style="color: black; font-size: 2em;"> Microscopic Scanning Pipeline</h1>
+
     <!-- Text Paragraph -->
     <p class="text-lg mb-4">
-      The Microscopic Scanning pipeline was the culminative project in the course Experimental Capture. In this piece, I was attempting to create a super-high fidelity scan of an object by taking a series of 1080p images and stitching them together with panorama software. I landed on
+      The Microscopic Scanning Pipeline was the culminative project in the course Experimental Capture. In this piece, I was attempting to create a super-high fidelity scan of an object by taking a series of 1080p images and stitching them together with panorama software. I landed on
       <a href="http://www.gigapan.com/" target="_blank" style="color: blue; text-decoration: underline;">
         Gigapan Stitch
       </a>
@@ -38,7 +40,7 @@
   <img src = "/panorama/excap_setup_diagram.png" alt = "setupdiagam" class ="iframe-grid"/>
   <img src = "/panorama/AK2A4807.JPG" alt ="showdiagram " class ="iframe-grid"/>
   </div>
-  <iframe width="70%" height="600" 
+  <iframe width="80%" height="700" 
   src="https://www.youtube.com/embed/5qOM6FM4ACw?si=Xv5avU5KPFw9ZnLK" 
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
   </iframe>
