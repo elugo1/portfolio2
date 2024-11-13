@@ -16,6 +16,7 @@
         width="700" 
         height="700" 
         src="https://www.gigapan.com/embeds/1hpwpg9xugA/" 
+        title = "gpan1"
         loading = "lazy"
         frameborder="0" 
         allowfullscreen 
@@ -23,11 +24,11 @@
         mozallowfullscreen>
       </iframe>
 
-    <iframe width="700" height="700" src="https://www.gigapan.com/embeds/NRpvURVyyTk/" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
+    <iframe width="700" height="700" src="https://www.gigapan.com/embeds/NRpvURVyyTk/" title = "gpan2" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
     </div>
     <div class = "iframe-grid">
-        <iframe width="700" height="700" src="https://www.gigapan.com/embeds/jevvLVvsRdU/" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
-        <iframe width="700" height="700" src="https://www.gigapan.com/embeds/n8kwUdHzr04/" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
+        <iframe width="700" height="700" src="https://www.gigapan.com/embeds/jevvLVvsRdU/"title = "gpan3" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
+        <iframe width="700" height="700" src="https://www.gigapan.com/embeds/n8kwUdHzr04/" title = "gpan4" loading = "lazy" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen ></iframe>
     </div>
   </div>
   
@@ -47,13 +48,7 @@
 </div>
 
 <style>
-  .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Makes the container take up full width */
-    overflow: hidden;
-  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -63,9 +58,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns for a 2x2 grid */
   gap: 20px; /* Adjust spacing between iframes */
-
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 </style>

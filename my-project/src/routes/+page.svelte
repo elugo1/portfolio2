@@ -30,7 +30,7 @@
     {
       title: 'Silhouette Extractor',
       imageUrl: '/thumbnail_images/silhouette_extractor_1.png',
-      link: '/Projects/bstara'
+      link: '/Projects/silhouette'
     }
   ];
 </script>

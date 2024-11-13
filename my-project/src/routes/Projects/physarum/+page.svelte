@@ -32,7 +32,7 @@
     </a>.
     The piece is a realtime computed simulation of agents or ants, moving in cohesion with their neighbors, as well as being attracted 
     to people whom I have designated to be eaten. All of the photos are found, and people in the photos have no personal 
-    connection.
+    connection. I find the ensuing action to be meditative and wonder what the difference would be if I was never aware of the people who were to be erased.
   </p>
 
   <p class="text-lg mb-4">
