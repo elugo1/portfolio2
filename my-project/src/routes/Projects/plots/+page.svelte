@@ -2,7 +2,7 @@
 
 <div class="grid-container">
   <div class="grid-item">
-    <p style = "padding-bottom:40px;"> A small showing of generated pen plots and SVGs from Touchdesigner and Houdini</p>
+    <p style = "padding-bottom:20px;"> A small showing of generated pen plots and SVGs from Touchdesigner and Houdini. The plots are rubbed into the page with a stylus depressed onto carbon-transfer paper.</p>
 
   </div>
   <!-- Each ImgExp component is placed inide a grid item -->
@@ -14,10 +14,25 @@
 </div>
   <div class="grid-item">
     <ImgExp imgurl={{ thumbnail: '../plots/shape_tunnel4.png', full: '../plots/shape_tunnel4.png' }} />
-
   </div>
-
-
+  <div class="grid-item">
+    <ImgExp imgurl={{ thumbnail: '../plots/boquet_scan.jpeg', full: '../plots/boquet_scan.jpeg' }} />
+  </div>
+  <div class="grid-item">
+    <ImgExp imgurl={{ thumbnail: '../plots/double_wreath.png', full: '../plots/double_wreath.png' }} />
+  </div>
+  <div class="grid-item">
+    <ImgExp imgurl={{ thumbnail: '../plots/chair_plot.png', full: '../plots/chair_plot.png' }} />
+  </div>
+  <div class="grid-item">
+    <ImgExp imgurl={{ thumbnail: '../plots/interdigit.png', full: '../plots/interdigit.png' }} />
+  </div>
+  <div class="grid-item">
+    <ImgExp imgurl={{ thumbnail: '../plots/deer_walking_1.png', full: '../plots/deer_walking_1.png' }} />
+  </div>
+  <div class ="grid-item">
+  <iframe width="40%" height="315" src="https://www.youtube.com/embed/p4_S6nR6Rfo?si=pQUzCeWXKD6_k3Nu" loading = "lazy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
   <!-- Add more grid items as needed -->
 </div>
 
@@ -36,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    padding-bottom:10px;
 
   }
 
