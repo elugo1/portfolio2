@@ -10,7 +10,7 @@
   <style>
     .image-container {
       position: relative;
-      width: 30%;
+      width: 40%;
       /* height: 30%; */
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       /* margin-left:20px; */
@@ -64,8 +64,8 @@
     }
   
     .modal img {
-      max-width: 70%;
-      max-height: 70%;
+      max-width: 100%;
+      max-height: 100%;
     }
   </style>
   

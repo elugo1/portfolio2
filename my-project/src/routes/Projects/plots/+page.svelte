@@ -1,18 +1,22 @@
 
 
 <div class="grid-container">
-  <!-- Each ImgExp component is placed inside a grid item -->
+  <div class="grid-item">
+    <p style = "padding-bottom:40px;"> A small showing of generated pen plots and SVGs from Touchdesigner and Houdini</p>
+
+  </div>
+  <!-- Each ImgExp component is placed inide a grid item -->
   <div class="grid-item">
     <ImgExp imgurl={{ thumbnail: '../plots/boquet_thumbnail.png', full: '../plots/boquet_full.png' }} />
-    <ImgExp imgurl={{ thumbnail: '../plots/l-system-full.png', full: '../plots/l-system-full.png' }} />
   </div>
+  <div class ="grid-item">
+  <ImgExp imgurl={{ thumbnail: '../plots/l-system-full.png', full: '../plots/l-system-full.png' }} />
+</div>
   <div class="grid-item">
     <ImgExp imgurl={{ thumbnail: '../plots/shape_tunnel4.png', full: '../plots/shape_tunnel4.png' }} />
 
   </div>
-  <div class="grid-item">
-    <p>This is my paragraph</p>
-  </div>
+
 
   <!-- Add more grid items as needed -->
 </div>
