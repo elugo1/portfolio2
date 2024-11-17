@@ -2,7 +2,7 @@
 
 <div class="grid-container">
   <div class="grid-item">
-    <p style = "padding-bottom:20px;"> A small showing of generated pen plots and SVGs from Touchdesigner and Houdini. The plots are rubbed into the page with a stylus depressed onto carbon-transfer paper.</p>
+    <p text-lg mb-4 style="max-width: 60%; padding-bottom: 20px;"> A small showing of generated pen plots and SVGs from Touchdesigner and Houdini. The plots are rubbed into the page with a stylus depressed onto carbon-transfer paper.</p>
 
   </div>
   <!-- Each ImgExp component is placed inide a grid item -->
@@ -19,13 +19,13 @@
     <ImgExp imgurl={{ thumbnail: '../plots/boquet_scan.jpeg', full: '../plots/boquet_scan.jpeg' }} />
   </div>
   <div class="grid-item">
-    <ImgExp imgurl={{ thumbnail: '../plots/double_wreath.png', full: '../plots/double_wreath.png' }} />
+    <ImgExp imgurl={{ thumbnail: '../thumbnail_images/double_wreath_thumbnail.png', full: '../plots/double_wreath.png' }} />
   </div>
   <div class="grid-item">
     <ImgExp imgurl={{ thumbnail: '../plots/chair_plot.png', full: '../plots/chair_plot.png' }} />
   </div>
   <div class="grid-item">
-    <ImgExp imgurl={{ thumbnail: '../plots/interdigit.png', full: '../plots/interdigit.png' }} />
+    <ImgExp imgurl={{ thumbnail: '../thumbnail_images/interdigit_thumbail.png', full: '../plots/interdigit.png' }} />
   </div>
   <div class="grid-item">
     <ImgExp imgurl={{ thumbnail: '../plots/deer_walking_1.png', full: '../plots/deer_walking_1.png' }} />
